@@ -1,0 +1,117 @@
+
+        body {
+            font-family: 'Balsamiq Sans', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            
+
+        }
+
+        .left {
+            position: absolute;
+            /* border: 2px solid red; */
+            left: 108px;
+            top: 18px;
+            /* border: 2px solid green; */
+            display: inline-block;
+            width: auto;
+
+
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 70px auto;
+            /* border: 2px solid yellow; */
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 18px;
+            /* border: 2px solid green; */
+            display: inline-block;
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 32px;
+            font-size: 25px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .left img {
+
+            width: 152px;
+
+        }
+
+        .left div {
+
+            text-align: center;
+        }
+
+        .btn {
+            font-family: 'Balsamiq Sans', cursive;
+            margin: 0px 21px;
+            background-color: black;
+            color: white;
+            padding: 17px 7px;
+            border: 2px solid rgb(107, 95, 150);
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            width: 249px;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .left div {
+            font-size: 34px;
+            color: antiquewhite;
+        }
+
+        .container {
+            border: 3px solid white;
+            margin: 189px 144px;
+            padding: 52px;
+            width: 33%;
+            border-radius: 19px;
+            text-align: center;
+            font-family:'Balsamiq Sans', cursive; ;
+        }
+
+        .formgroup input {
+            text-align: center;
+            display: block;
+            width: 456px;
+            padding: 17px;
+            border: 2px solid black;
+            margin: 7px auto;
+            border-radius: 10px;
+            font-size: 26px;
+            
+
+        }
